@@ -4,10 +4,10 @@ namespace Visitor
 {
     public interface IVisitor
     {
-        public void ImprimeSoma(Soma soma);
-        public void ImprimeSubtracao(Subtracao subtracao);
-        public void ImprimeMultiplicacao(Multiplicacao multiplicacao);
-        public void ImprimeDivisao(Divisao divisao);
-        public void ImprimeNumero(Numero numero);
+        public void VisitaSoma(Soma soma);
+        public void VisitaSubtracao(Subtracao subtracao);
+        public void VisitaMultiplicacao(Multiplicacao multiplicacao);
+        public void VisitaDivisao(Divisao divisao);
+        public void VisitaNumero(Numero numero);
     }
 }

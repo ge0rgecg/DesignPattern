@@ -20,7 +20,7 @@
 
         public void Aceita(IVisitor impressora)
         {
-            impressora.ImprimeMultiplicacao(this);
+            impressora.VisitaMultiplicacao(this);
         }
     }
 }

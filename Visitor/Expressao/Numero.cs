@@ -16,7 +16,7 @@
 
         public void Aceita(IVisitor impressora)
         {
-            impressora.ImprimeNumero(this);
+            impressora.VisitaNumero(this);
         }
     }
 }

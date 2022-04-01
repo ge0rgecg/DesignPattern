@@ -20,7 +20,7 @@
 
         public void Aceita(IVisitor impressora)
         {
-            impressora.ImprimeSoma(this);
+            impressora.VisitaSoma(this);
         }
     }
 }

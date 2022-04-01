@@ -12,7 +12,9 @@ namespace Visitor
             var resultado = new Divisao(new Numero(1000), new Multiplicacao(new Numero(2), new Soma(esquerda, direita)));
 
             var impressora = new ImpressoraVisitor();
+            var impressoraSinalFrente = new ImpressoraVisitorSinal();
             resultado.Aceita(impressora);
+            resultado.Aceita(impressoraSinalFrente);
         }
     }
 }
